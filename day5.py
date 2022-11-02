@@ -1,0 +1,8 @@
+my_tuple = ("Hello", "Hello2", "hello3", "Hello4")
+print(my_tuple)
+my_list = list(my_tuple)
+print(my_list)
+my_list.insert(4, "hello")
+print(my_list)
+my_tuple2 = tuple(my_list)
+print(my_tuple2)
