@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+import random
+
+print(random.randint(1,6))
+=======
 # 🚨 Don't change the code below 👇
 student_heights = input("Input a list of student heights ").split()
 for n in range(0, len(student_heights)):
@@ -14,3 +19,4 @@ for student in student_heights:
     student_heights_sum += student
 
 print(int(student_heights_sum/student_count))
+>>>>>>> f0ab5171198aa2800e42c01b1bd532201ab8f912
